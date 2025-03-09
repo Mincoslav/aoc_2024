@@ -6,7 +6,7 @@ import (
 )
 
 func TestYourFunction(t *testing.T) {
-	result := getScannerForFile("../day3/input.txt")
+	result := GetScannerForFile("../day3/input.txt")
 	result.Scan()
 	text := result.Text()
 	println(text)
